@@ -1,0 +1,13 @@
+{
+int num, i, fat = 1;
+
+    printf("Digite um numero: ");
+    scanf("%i", &num);
+
+    for(i = num; i > 0; i--) {
+        fat = fat * num;
+        num--;
+    }
+    printf("Fatorial: %i", fat);
+    return 0;
+}
